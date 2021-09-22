@@ -1,0 +1,121 @@
+/* image slider */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.slide-container{
+    position: relative;
+    width: 100%;
+}
+.slide{
+display: none;
+}
+.slide img{
+    height: 450px;
+    width: 100%;
+}
+.arrow{
+    cursor: pointer;
+    position: absolute;
+    top: 45%;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.835);
+    padding: 5px 15px;
+    border-radius: 50%;
+    font-size: 25px;
+    font-weight: bold;
+    opacity: 0.5;
+}
+#next{
+    right: 2%;
+}
+#prev{
+    left:2%
+}
+.caption{
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0px;
+    margin-bottom: 5px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* let flag = 0;
+
+function controller(x){
+    flag = flag + x
+    slideshow(flag)
+}
+
+slideshow(flag)
+
+function slideshow(n){
+    let slides = document.getElementsByClassName('slide')
+    if(n == slides.length){
+        flag = 0;
+        n = 0
+    }
+    if(n < 0){
+        flag = slides.length - 1
+        n = slides.length - 1
+    }
+    for(let y of slides){
+        y.style.display = "none"
+    } 
+
+    slides[n].style.display = "block"  
+    
+} */
